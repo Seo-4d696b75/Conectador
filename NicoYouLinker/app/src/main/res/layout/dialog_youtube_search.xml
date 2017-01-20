@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dialogYoutubeRoot">
+    <ListView
+        android:id="@+id/listViewYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"></ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:text="@string/youtube_search_base"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="110dp"
+            android:layout_height="85dp">
+
+            <ImageView
+                android:id="@+id/imageViewNicoThumbnail"
+                android:layout_width="100dp"
+                android:layout_height="75dp"
+                android:src="@drawable/temp_thumbnail"
+                android:layout_margin="5dp"/>
+
+            <FrameLayout
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="5dp">
+                <TextView
+                    android:id="@+id/textViewNicoLength"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="length"
+                    android:background="#7f000000"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"/>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/textViewNicoTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="title"
+                android:textSize="@dimen/youtubeListTitle"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewNicoView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="viewCounter"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textViewNicoMyList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="mylistCounter"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonSettingEditAccount"
+                android:text="@string/setting_edit_account"
+                android:paddingLeft="20dp"
+                android:gravity="center|left"
+                android:layout_width="match_parent"
+                android:background="@color/darkBack"
+                android:textSize="18sp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="60dp" />
+
+            <Button
+                android:id="@+id/buttonSettingChangeAccount"
+                android:text="@string/setting_change_account"
+                android:paddingLeft="20dp"
+                android:gravity="center|left"
+                android:layout_width="match_parent"
+                android:background="@color/darkBack"
+                android:textSize="18sp"
+                android:layout_marginBottom="3dp"
+                android:layout_height="60dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/darkBack"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting_auto_login"
+                        android:textSize="18sp"
+                        android:textColor="@color/text"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="15dp"/>
+                    <Switch
+                        android:id="@+id/switchSettingAutoLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:paddingRight="40dp"
+                        android:paddingTop="10dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_auto_login_detail"
+                    android:textSize="12sp"
+                    android:textColor="@color/subText"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="20dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkBack"
+                android:orientation="vertical"
+                android:layout_marginBottom="3dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_video_choice"
+                    android:textSize="18sp"
+                    android:textColor="@color/text"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="15dp"/>
+                <RadioGroup
+                    android:id="@+id/radioGroupSettingVideoChoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/radioSettingVideoOther"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/setting_video_choice_other"/>
+                    <RadioButton
+                        android:id="@+id/radioSettingVideoSearch"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/setting_video_choice_search"/>
+                    <RadioButton
+                        android:id="@+id/radioSettingVideoNothing"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="40dp"
+                        android:text="@string/setting_video_choice_nothig"/>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="3dp"
+                android:background="@color/darkBack"
+                android:id="@+id/linearLayoutSettingYoutubeContainer">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="3dp"
+                android:background="@color/darkBack"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting_nico_recommend"
+                        android:textSize="18sp"
+                        android:textColor="@color/text"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="15dp"/>
+                    <Switch
+                        android:id="@+id/switchSettingRecommend"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:paddingRight="40dp"
+                        android:paddingTop="10dp"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/setting_nico_recommend_mes"
+                    android:textSize="12sp"
+                    android:textColor="@color/subText"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

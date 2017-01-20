@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="16cfb70360976084d4b7abd23f9da06f5a2463c3">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_672778f2da3913cd35c11d42c26972e3908e942a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_6d1672975395b3c781814b70ce169c394f1941c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ba42218ff3973f086a7f1107c793ad52a5df892b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_b25598862f09248eba37ec4ae80f07716eae9c0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_92b8b02a54027c5bd9d12d2ea663205039bfa27d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_846c8fc0b706d7c8d14d0ecdfa3861788345a4b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\2\YouTubeAndroidPlayerApi_f94ed3f7fc6e1c8824d179220e8d6d0cbbbc1d82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\hamcrest-core-1.3_3c6f49336cf74c6044fb015896c230e73d1e8499\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_41ee26c0cef14417528bb592ad3308cc09422002\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_7e204f5403e59299bce8319ed8ade25fab32e3e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ae9587df6a6567683cc4bb5fa8ddd2b0039a0c65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_4510703439202ea9e942623737c29c3ad6c875cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8dc7fd5c4c188323bfbc5d103418f6888f551710">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_47d2a9b607f8d2dfa8ea53a45778df119072674a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_9e4c6f547575cbb5f370ee24c5f0619aff8bc60c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_f5bea764371e863181acbc2c27c21d0d0f265f49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8a845b2e2783d8f5e68af092e46ae703bd6490c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_11a73999d523bb4b91eed78bdc94ddfeea2a685b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_ec9e5c4eadd3af6022c58bb02f64c7cd38fcf91a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_723faee32db68fa29a0ec4171f21a85ba47d1bcf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\skaor\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\skaor\Documents\android_studio\NicoYouLinker\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_84282b302e77020c2430b772b3bbfd440ea9d1c4\classes.dex" />
+    </item>
+
+</items>

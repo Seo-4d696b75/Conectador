@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:id="@+id/cellSearchKeyRoot">
+    <Spinner
+        android:id="@+id/spinnerSearchKeyOperator"
+        android:layout_width="60dp"
+        android:layout_margin="5dp"
+        android:layout_height="30dp"
+        android:entries="@array/search_key_operator"
+        android:background="@drawable/spinner_back">
+    </Spinner>
+    <EditText
+        android:id="@+id/editTextSearchKey"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:background="@color/darkBack"
+        android:hint="@string/search_key"
+        android:textColorHint="@color/hint"
+        android:maxLines="1" />
+</LinearLayout>

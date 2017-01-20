@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">Conectador</string>
+    <string name="login_status_defalt">ログインしてません</string>
+    <string name="login_status_in">ログイン中</string>
+    <string name="user_name_defalt">ユーザー名</string>
+    <string name="get_rank">ランキング検索</string>
+    <string name="search">キーワード・タグ検索</string>
+    <string name="get_mylist">マイリス取得</string>
+    <string name="user_icon_path_format" formatted="false">%d-icon.jpg</string>
+    <string name="try_to_login">ログイン中</string>
+    <string name="setting">設定</string>
+    <string name="setting_edit_account">Nicoアカウント情報編集</string>
+    <string name="setting_list_mes">Nicoアカウントを選択</string>
+    <string name="setting_list_name">アカウント</string>
+    <string name="setting_change_account">アカウント切り替え</string>
+    <string name="setting_auto_login">自動ログイン</string>
+    <string name="setting_auto_login_detail">アプリ起動時に自動でログインします</string>
+    <string name="setting_video_choice">Nico動画の再生オプション</string>
+    <string name="setting_video_choice_other">外部プレイヤーで再生</string>
+    <string name="setting_video_choice_search">YouTubeで検索</string>
+    <string name="setting_video_choice_nothig">何もしない</string>
+    <string name="setting_youtube_mes">YouTube動画の再生オプション</string>
+    <string name="setting_youtube_watch">内部プレイヤーで再生</string>
+    <string name="setting_youtube_comment">Nicoコメントの表示</string>
+    <string name="setting_nico_recommend">NICOおすすめの表示</string>
+    <string name="setting_nico_recommend_mes">NICO動画タップ時におすすめ動画を検索・表示します</string>
+    <string name="mail_tel">登録メールアドレス・電話番号</string>
+    <string name="pass">登録パスワード</string>
+    <string name="edit_account_info">アカウント情報の追加編集</string>
+    <string name="no_account_alert">アカウント情報が登録されていません</string>
+    <string name="no_login_alert">ログインしていません</string>
+    <string name="login_url">https://account.nicovideo.jp/api/v1/login?show_button_twitter=1&amp;site=niconico&amp;show_button_facebook=1&amp;next_url=</string>
+    <string name="my_page_url">http://www.nicovideo.jp/my</string>
+    <string name="user_nickname_url">http://seiga.nicovideo.jp/api/user/info?id=</string>
+    <string name="user_icon_url">http://usericon.nimg.jp/usericon</string>
+    <string name="login_success">ログインに成功しました</string>
+    <string name="login_fail">ログインに失敗しました</string>
+    <string name="no_login_warning">この機能はログインが必要です</string>
+    <string name="selected">選択中</string>
+    <string name="dialog_ranking_title">ランキング検索</string>
+    <string name="dialog_ranking_mes">検索条件の設定</string>
+    <string name="spinner_title_genre">ジャンル</string>
+    <string-array name="spinner_array_genre">
+        <item>all</item>
+        <item>vocaloid</item>
+        <item>music</item>
+        <item>anime</item>
+        <item>game</item>
+        <item>dance</item>
+        <item>sing</item>
+        <item>play</item>
+        <item>toho</item>
+        <item>imas</item>
+        <item>ent</item>
+        <item>animal</item>
+        <item>radio</item>
+        <item>sport</item>
+        <item>politics</item>
+        <item>science</item>
+        <item>history</item>
+        <item>cooking</item>
+        <item>nature</item>
+        <item>diary</item>
+        <item>lecture</item>
+        <item>nicoindies</item>
+        <item>drive</item>
+        <item>tech</item>
+        <item>handcraft</item>
+        <item>make</item>
+        <item>draw</item>
+        <item>travel</item>
+        <item>are</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="spinner_array_genre_name">
+        <item>カテゴリ合算</item>
+        <item>VOCALOID</item>
+        <item>音楽</item>
+        <item>アニメ</item>
+        <item>ゲーム</item>
+        <item>踊ってみた</item>
+        <item>歌ってみた</item>
+        <item>演奏してみた</item>
+        <item>東方</item>
+        <item>アイドルマスター</item>
+        <item>エンターテイメント</item>
+        <item>動物</item>
+        <item>ラジオ</item>
+        <item>スポーツ</item>
+        <item>政治</item>
+        <item>科学</item>
+        <item>歴史</item>
+        <item>料理</item>
+        <item>自然</item>
+        <item>日記</item>
+        <item>ニコニコ動画講座</item>
+        <item>ニコニコインディーズ</item>
+        <item>車載動画</item>
+        <item>ニコニコ技術部</item>
+        <item>ニコニコ手芸部</item>
+        <item>作ってみた</item>
+        <item>描いてみた</item>
+        <item>旅行</item>
+        <item>例のあれ</item>
+        <item>その他</item>
+    </string-array>
+    <string name="spinner_title_kind">検索タイプ</string>
+    <string-array name="spinner_array_kind">
+        <item>view</item>
+        <item>mylist</item>
+        <item>fav</item>
+    </string-array>
+    <string-array name="spinner_array_kind_name">
+        <item>再生数</item>
+        <item>マイリス数</item>
+        <item>総合</item>
+    </string-array>
+    <string name="spinner_title_period">検索期間</string>
+    <string-array name="spinner_array_period">
+        <item>total</item>
+        <item>monthly</item>
+        <item>weekly</item>
+        <item>daily</item>
+        <item>hourly</item>
+    </string-array>
+    <string-array name="spinner_array_period_name">
+        <item>総合</item>
+        <item>月間</item>
+        <item>週間</item>
+        <item>毎日</item>
+        <item>毎時</item>
+    </string-array>
+    <string name="ranking_title">ランキング検索結果</string>
+    <string name="ranking_mes" formatted="false">カテゴリ:%s\nフィルタ:%s  期間:%s</string>
+    <string name="ranking_research">再検索</string>
+    <string name="ranking_progress">ランキング取得中</string>
+    <string name="ranking_url" formatted="false">http://www.nicovideo.jp/ranking/%s/%s/%s?rss=2.0</string>
+    <string name="ranking_error">ランキング取得に失敗しました</string>
+    <string name="ranking_viewCounter_format" formatted="false">再生:%s</string>
+    <string name="ranking_mylilstCounter_format" formatted="false">マイリス:%s</string>
+    <string name="mylist_group_url">http://www.nicovideo.jp/api/mylistgroup/list</string>
+    <string name="mylist_url" formatted="false">http://www.nicovideo.jp/mylist/%s?rss=2.0</string>
+    <string name="mylist_failure_mes">マイリス取得に失敗しました</string>
+    <string name="mylist_select_mes">マイリスを選択してください</string>
+    <string name="mylist_title">マイリス</string>
+    <string name="mylist_temp">とりあえずマイリス</string>
+    <string name="mylist_temp_rul">http://www.nicovideo.jp/api/deflist/list</string>
+    <string name="mylist_group_progress">マイリスグループ取得中</string>
+    <string name="mylist_list_progress">マイリス取得中</string>
+    <string name="mylist_default_progress">とりあえずマイリス取得中</string>
+    <string name="search_prompt">検索条件セット</string>
+    <string name="search_title">動画検索</string>
+    <string name="search_direct_title">直接指定</string>
+    <string name="search_direct">検索クエリを直接指定します</string>
+    <string name="search_go">検索</string>
+    <string name="search_url">http://api.search.nicovideo.jp/api/v2/snapshot/video/contents/search?q=</string>
+    <string name="search_tags">タグ検索</string>
+    <string name="search_fail">検索に失敗しました</string>
+    <string name="search_key_title">検索クエリ指定</string>
+    <string name="search_key">検索キーワード</string>
+    <string-array name="search_key_operator">
+        <item>AND</item>
+        <item>OR</item>
+        <item>NOT</item>
+    </string-array>
+    <string-array name="search_sort_fields">
+        <item>viewCounter</item>
+        <item>mylistCounter</item>
+        <item>commentCounter</item>
+        <item>startTime</item>
+        <item>lengthSeconds</item>
+    </string-array>
+    <string-array name="search_sort_name">
+        <item>再生数</item>
+        <item>マイリス数</item>
+        <item>コメント数</item>
+        <item>投稿日時</item>
+        <item>再生時間</item>
+    </string-array>
+    <string name="search_sort_title">ソート項目</string>
+    <string name="search_sort_up">昇順</string>
+    <string name="search_sort_down">降順</string>
+    <string name="search_limit_title">検索数</string>
+    <string name="search_limit_mes">10~100の数値で指定します</string>
+    <string name="search_limit_warning">検索数が不正です</string>
+    <string name="search_key_warning">検索キーが不正です</string>
+    <string name="search_filter_title">検索フィルター</string>
+    <string name="search_filter_ID">動画ＩＤ</string>
+    <string name="search_filter_tags">タグ</string>
+    <string name="search_filter_tags_hint">空白区切りで複数指定</string>
+    <string name="search_filter_category">ジャンル</string>
+    <string name="search_filter_view">再生数</string>
+    <string name="search_filter_mylist">マイリス数</string>
+    <string name="search_filter_comment">コメント数</string>
+    <string name="search_filter_date">投稿日</string>
+    <string name="search_filter_length">再生時間</string>
+    <string name="search_filter_date_hint">タップで\n設定</string>
+    <string name="search_progress">Nico検索中</string>
+    <string name="watch_rul">http://www.nicovideo.jp/watch/</string>
+    <string name="youtube_search_url" formatted="false">https://www.googleapis.com/youtube/v3/search?type=video&amp;part=snippet&amp;q=%s&amp;key=%s&amp;maxResults=10</string>
+    <string name="youtube_resource_url" formatted="false">https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics,contentDetails&amp;id=%s&amp;key=%s</string>
+    <string name="thumbnail_url">http://ext.nicovideo.jp/api/getthumbinfo/</string>
+    <string name="youtube_search_mes">次の動画が見つかりました</string>
+    <string name="youtube_search_base">元の動画情報</string>
+    <string name="flv_url">http://flapi.nicovideo.jp/api/getflv/</string>
+    <string name="youtube_warch_url">https://www.youtube.com/watch?v=</string>
+    <string name="youtube_progress">YouTube検索中</string>
+    <string name="recommend_title">おすすめ動画</string>
+    <string name="recommend_url" formatted="false">http://flapi.nicovideo.jp/api/getrelation?page=10&amp;sort=p&amp;order=d&amp;video=</string>
+    <string name="recommend_progress">おすすめ動画取得中</string>
+</resources>
